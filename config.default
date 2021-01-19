@@ -1,7 +1,7 @@
 [Hospital]
 API_LEVEL=hospital
-HOSPCODE=00000
-HN_LENGTH=0
+HOSPCODE=11318
+HN_LENGTH=7
 
 [API]
 HTTPS=0
@@ -16,14 +16,14 @@ AUTO_RESTART=1
 // valid db client type: mysql, pg, mssql, oracledb
 // valid HIS provider name: ezhosp, hosxpv3, hosxpv4, hosxppcu, infod, ssb, hospitalos
 //      kpstat, md, hospitalos, kpstat, md, mkhospital, thiades, nemo, mypcu other
-HIS_PROVIDER=hosxpv3
-HIS_DB_HOST=localhost
+HIS_PROVIDER=hosxpv4
+HIS_DB_HOST=10.10.1.2
 HIS_DB_PORT=3306
 HIS_DB_CLIENT=mysql
 HIS_DB_SCHEMA=public
-HIS_DB_NAME=db
-HIS_DB_USER=user
-HIS_DB_PASSWORD=password
+HIS_DB_NAME=hos
+HIS_DB_USER=sa
+HIS_DB_PASSWORD=bspnh
 HIS_DB_CHARSET=utf8
 HIS_DB_ENCRYPT=true
 HIS_DATACENTER_ENABLE=0
